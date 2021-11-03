@@ -17,7 +17,7 @@
       const orig = XMLHttpRequest.prototype.send;
       XMLHttpRequest.prototype.send = function() {
         console.log('IN SEND');
-        xhr.setRequestHeader('Non-Standad-Header', 'non-standard-value')
+        this.setRequestHeader('Non-Standad-Header', 'non-standard-value')
         return orig.apply(this, arguments); }
     </script>
 
