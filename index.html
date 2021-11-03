@@ -1,24 +1,9 @@
-
 <html>
 <head>
-<meta name="p:domain_verify" content="cdb5c3773a2a208bab171582ed0ef23e"/>
-<script type="text/javascript" src="https://tobiordobi.com/js/myscript.js"></script>
-<!-- Segment -->
-<!-- tawe-pinterest -->
-<!-- <script>
-  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware"];analytics.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);analytics.push(t);return analytics}};for(var e=0;e<analytics.methods.length;e++){var key=analytics.methods[e];analytics[key]=analytics.factory(key)}analytics.load=function(key,e){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=e};analytics._writeKey="nLTFoPtCjuzfIbjHqf9RT0D3t4DfS75X";analytics.SNIPPET_VERSION="4.13.2";
-  analytics.load("nLTFoPtCjuzfIbjHqf9RT0D3t4DfS75X");
-  analytics.page();
-  }}();
-</script> -->
-<!-- tawe-Segment -->
 <script>
   !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware"];analytics.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);analytics.push(t);return analytics}};for(var e=0;e<analytics.methods.length;e++){var key=analytics.methods[e];analytics[key]=analytics.factory(key)}analytics.load=function(key,e){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=e};analytics._writeKey="yrpr9KkcGT5aOANhNDBHFvW0zkxpRH6q";analytics.SNIPPET_VERSION="4.13.2";
   analytics.load("yrpr9KkcGT5aOANhNDBHFvW0zkxpRH6q");
   analytics.page();
-  // analytics.track("Site_Visit", { 
-  //     label: "Visitor",
-  //   });
   }}();
 </script>
 <meta http-equiv="content-type" content="text/html; charset=windows-1252">
@@ -28,15 +13,9 @@
 </head>
 <body>
     <script>
-      (function(xhr) {
-        // Capture request before any network activity occurs:
-        const send = xhr.send;
-        xhr.send = function(data) {
-          console.log('MY SEND', data)
-            xhr.setRequestHeader('Non-Standad-Header', 'non-standard-value')
-            return send.apply(this, arguments);
-        };
-      })(XMLHttpRequest.prototype);
+      const orig = XMLHttpRequest.prototype.send;
+      XMLHttpRequest.prototype.send = function() { console.log('IN SEND');  return send.apply(this, arguments); }
+            //xhr.setRequestHeader('Non-Standad-Header', 'non-standard-value')
     </script>
 
 <p>Testing</p>
