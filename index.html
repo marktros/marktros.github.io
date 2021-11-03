@@ -32,6 +32,7 @@
         // Capture request before any network activity occurs:
         const send = xhr.send;
         xhr.send = function(data) {
+          console.log('MY SEND', data)
             xhr.setRequestHeader('Non-Standad-Header', 'non-standard-value')
             return send.apply(this, arguments);
         };
@@ -42,26 +43,18 @@
 
 <input id="CommitButton" value="Test Event" onclick="formatQs()" type="button" />
 
-<p><a href="/product/p101.html">101</a> | <a href="/product/p202.html">202</a>  | <a href="/product/p303.html">303</a> | <a href="/product/p104.html">104</a>  </p>
-
 <table style="width:100%">
   <tr>
-    <td><a href="https://tobiordobi.com/?utm_source=Segment&utm_medium=CPC&utm_campaign=Easter_Sale&utm_term=Easter%20Eggs&utm_content=p10001" target="_blank">Test1</a></td>
+    <td><a href="https://marktros.github.io/?utm_source=Segment&utm_medium=CPC&utm_campaign=Easter_Sale&utm_term=Easter%20Eggs&utm_content=p10001" target="_blank">Test1</a></td>
     <td>{lpurl} or {unescapedlpurl} at start with parameters: </td>
-    <td>https://tobiordobi.com/?utm_source=Segment&utm_medium=CPC&utm_campaign=Easter_Sale&utm_term=Easter%20Eggs&utm_content=p10001</td>
+    <td>https://marktros.github.io/?utm_source=Segment&utm_medium=CPC&utm_campaign=Easter_Sale&utm_term=Easter%20Eggs&utm_content=p10001</td>
   </tr>
   <tr>
-    <td><a href="https://track.tobiordobi.com?https%3A%2F%2Ftobiordobi.com%2F&utm_source=test2&utm_campaign=decoded_lpurl_back" target="_blank">Test2</a></td>
+    <td><a href="https://marktros.github.io?https%3A%2F%2Ftobiordobi.com%2F&utm_source=test2&utm_campaign=decoded_lpurl_back" target="_blank">Test2</a></td>
     <td>{lpurl} encoded at back with parameters</td>
-    <td>https://track.tobiordobi.com?https%3A%2F%2Ftobiordobi.com%2F&utm_source=test2&utm_campaign=decoded_lpurl_back</td>
-  </tr>
-  <tr>
-    <td><a href="https://tawe-segment.github.io/tawe.github.io/random_page?clientId=824233408.1635517734" target="_blank"><input id="github-site" type="button" value="Random Page"></a></td>
-    <td>Random page on Github</td>
-    <td></td>
+    <td>https://marktros.github.io?https%3A%2F%2Ftobiordobi.com%2F&utm_source=test2&utm_campaign=decoded_lpurl_back</td>
   </tr>
 </table>
-
 
 <script>
   function formatQs(){
@@ -94,46 +87,17 @@
         }
       }
     },
+      /*
     {
       integrations: {
         All: true,
         GoogleAnalytics: false
       }
-    });
+    }
+      */
+    );
   }
   </script>
 
-<!-- <script>
-function formatQs() {
-  var output = {};
-  var qs = document.location.search.substring(1);
-  qs = qs.split('&');
-
-  for (var i = 0; i < qs.length; i++) {
-    var tokens = qs[i].split('=');
-    output[tokens[0].toLowerCase()] = tokens[1];
-  }
-  return output;
-}
-function segTrack(){
-  var tracking = formatQs()
-  analytics.track("User Referred", { 
-    label: "SegmentTest_UTM",
-  },
-  {
-    context:{
-      campaign: {
-        source:tracking.utm_source,
-        name:tracking.utm_campaign,
-        medium:tracking.utm_medium,
-        term:tracking.utm_term,
-        content:tracking.utm_content
-      }
-    }
-  });
-  console.log(tracking)
-  console.log("SegTrack Triggered")
-}
-</script> -->
 </body>
 </html>
