@@ -15,9 +15,10 @@
 <body>
     <script>
       const orig = XMLHttpRequest.prototype.send;
-      XMLHttpRequest.prototype.send = function() { console.log('IN SEND');  return orig.apply(this, arguments); }
-      // yea
-            //xhr.setRequestHeader('Non-Standad-Header', 'non-standard-value')
+      XMLHttpRequest.prototype.send = function() {
+        console.log('IN SEND');
+        xhr.setRequestHeader('Non-Standad-Header', 'non-standard-value')
+        return orig.apply(this, arguments); }
     </script>
 
 <p>Testing</p>
