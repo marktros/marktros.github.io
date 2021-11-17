@@ -5,11 +5,10 @@
   <body>
     <p>
       'deps' are the unrolled `dependencies` that the resolver declares
-    </p>
-    <p>
+      <br />
       'wants' is what the resolver is actually using
     </p>
-    <table>
+    <table border="1" align="center">
       <caption>Basic Objects</caption>
       <tr>
         <th>object</th><th>details</th>
@@ -18,15 +17,15 @@
         <td>profile</td><td>Profile Service</td>
       <tr>
       <tr>
-        <td>userId</td><td>"gopuff-user-{profile.id}</td>
+        <td>userId</td><td>"gopuff-user-{profile.id}"</td>
       <tr>
       <tr>
         <td>user</td><td>From CosmosDB (user.id == userId)</td>
       <tr>
       <tr>
-        <td>locationId</td><td>"gopuff-user-{profile.id}</td>
+        <td>locationId</td><td>"gopuff-user-{profile.id}"</td>
       <tr>
     </table>
-    <iframe width="100%" src="./output.html">
+    <iframe height="100%" width="100%" src="./output.html">
   </body>
 </html>
