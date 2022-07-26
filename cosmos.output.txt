@@ -1,0 +1,382 @@
+[
+    {
+        "id": "gopuff-user-10717660",
+        "gopuff": {
+            "address_id": 20026555,
+            "address": {
+                "id": 20026555,
+                "user_id": "10717660",
+                "account_type": "gopuff",
+                "full_address": "2217 Corte Ananas, Carlsbad, CA 92009, USA",
+                "address": "2217 Corte Ananas, Carlsbad, CA 92009, USA",
+                "apt": {},
+                "district": null,
+                "city": "Carlsbad",
+                "state": "CA",
+                "country": "US",
+                "zip": "92009",
+                "latitude": 33.078317,
+                "longitude": -117.259414,
+                "google_place_id": null,
+                "geocode_partial_match": false,
+                "geocode_results_count": null,
+                "geocoder_postal_prefix_fallback": false,
+                "version": 3,
+                "street_number": "2217",
+                "route": "Corte Ananas",
+                "plus_code": {},
+                "delivery_note": "",
+                "created_at": "2021-07-08T02:09:39.000Z",
+                "updated_at": "2022-02-10T15:07:20.000Z",
+                "last_selected_at": "2022-01-11T22:50:32.000Z",
+                "delivery_zone": {
+                    "id": 483,
+                    "name": "SAN_Encinitas_483",
+                    "out_of_zone": false,
+                    "message": {
+                        "title": "How convenient!",
+                        "description": "You’re within our delivery area, which means your convenience wishes are our command. Just let us know what you want and we’ll be right there."
+                    },
+                    "polygon_secondary": false,
+                    "marketing_region": "",
+                    "country_code": "us",
+                    "open": true,
+                    "open_from": "0 12 * * *",
+                    "open_to": "30 23 * * *",
+                    "delivery_open_from": "0 12 * * *",
+                    "delivery_open_to": "30 23 * * *",
+                    "pickup_open": false,
+                    "pickup_open_from": "0 0 * * *",
+                    "pickup_open_to": "0 0 * * *",
+                    "pickup_instructions": "When picking up, please provide your name and the last 4 digits of your phone number",
+                    "pickup_restricted_categories": [],
+                    "options": {
+                        "warning_message_for_alcohol_on_checkout_screen": "Must be 21 years of age to purchase alcohol/adult products. U.S. Government issued ID or Passport will be checked upon arrival of order. If you do not have ID at time of delivery, or you fail to provide an original physical copy or an authentic State or Government issued ID you will be charged a NON-REFUNDABLE 50% restocking fee and will not receive any of the order. Thank you for your cooperation. Expired IDs will not be accepted after July 1, 2021.",
+                        "warning_message_for_adult_on_checkout_screen": "You must be 21 years or older to order from the Smoke Shop. Please have your ID ready upon delivery for all Smoke Shop products. Expired IDs will not be accepted after July 1, 2021.",
+                        "title_for_tips_section_on_checkout": "Hook Your Driver Up?",
+                        "text_for_tips_section_on_checkout": "Gopuff makes it easy for customers to hook their delivery drivers up with a tip.\n\nWe even gave you some pre-selected options. Just tap to hook your driver up with a buck, three bucks, or a fiver.\n\nNot into it? Just tap 'nah.' Your snacks and dranks are still on their way.\n",
+                        "max_order_price_for_cash_pay": 100,
+                        "overnight_shipping_price": 8.49,
+                        "estimated_delivery_time": "20 - 50 minutes",
+                        "estimated_shipping_time": {
+                            "standard": {
+                                "from": 2,
+                                "to": 5
+                            },
+                            "overnight": {
+                                "from": 1,
+                                "to": 4
+                            }
+                        },
+                        "free_delivery_price": 100000,
+                        "min_order_price": 14.95,
+                        "delivery_price": 2.95,
+                        "tips_options": [
+                            {
+                                "min_order_total": 0,
+                                "max_order_total": 14.99,
+                                "value_1": 2.99,
+                                "value_2": 3.99,
+                                "value_3": 4.99
+                            },
+                            {
+                                "min_order_total": 15,
+                                "max_order_total": 19.99,
+                                "value_1": 3.99,
+                                "value_2": 4.99,
+                                "value_3": 5.99
+                            },
+                            {
+                                "min_order_total": 20,
+                                "max_order_total": 24.99,
+                                "value_1": 4.99,
+                                "value_2": 5.99,
+                                "value_3": 6.99
+                            },
+                            {
+                                "min_order_total": 25,
+                                "max_order_total": 29.99,
+                                "value_1": 5.79,
+                                "value_2": 6.79,
+                                "value_3": 7.79
+                            },
+                            {
+                                "min_order_total": 30,
+                                "max_order_total": 34.99,
+                                "value_1": 6.59,
+                                "value_2": 7.59,
+                                "value_3": 8.59
+                            },
+                            {
+                                "min_order_total": 35,
+                                "max_order_total": 39.99,
+                                "value_1": 7.09,
+                                "value_2": 9.09,
+                                "value_3": 11.09
+                            },
+                            {
+                                "min_order_total": 40,
+                                "max_order_total": 44.99,
+                                "value_1": 7.89,
+                                "value_2": 9.89,
+                                "value_3": 11.89
+                            },
+                            {
+                                "min_order_total": 45,
+                                "max_order_total": 49.99,
+                                "value_1": 8.19,
+                                "value_2": 10.19,
+                                "value_3": 12.19
+                            },
+                            {
+                                "min_order_total": 50,
+                                "max_order_total": null,
+                                "value_1": 8.99,
+                                "value_2": 10.99,
+                                "value_3": 14.99
+                            }
+                        ],
+                        "delivery_zone_requires_id_scan_before_ordering": "For you to receive your order, you need to upload photo of a government issued document proving your identity and age. If your ID document has two sides with information about your identity, please upload both sides.",
+                        "delivery_zone_requires_id_document_before_ordering": "SCAN THE BACK OF YOUR DRIVER'S LICENSE "
+                    },
+                    "requires_id_scans_before_ordering": false,
+                    "requires_id_document_before_ordering": false,
+                    "requires_id_document_before_ordering_alcohol": false,
+                    "requires_id_document_before_ordering_adult": false,
+                    "launch_date": "2021-05-27",
+                    "coming_soon": false,
+                    "accepts_cash": false,
+                    "rank": {},
+                    "kind": "mfc",
+                    "alcohol_merchant": "",
+                    "pickup_enabled": false,
+                    "out_of_service": false,
+                    "delivery_enabled": true,
+                    "autohold_fresh_food": false,
+                    "address": {
+                        "id": 443,
+                        "location_id": 483,
+                        "address": "212 N El Camino Real",
+                        "apt": "",
+                        "zip": "92024",
+                        "city": "Encinitas",
+                        "state": "California",
+                        "latitude": "33.049204",
+                        "longitude": "-117.261179",
+                        "created_at": "2021-01-06T14:44:03.000-05:00",
+                        "updated_at": "2021-05-27T11:45:44.000-04:00",
+                        "google_place_id": "Ei4yMTIgTiBFbCBDYW1pbm8gUmVhbCwgRW5jaW5pdGFzLCBDQSA5MjAyNCwgVVNBIlESTwo0CjIJc5wzXYwL3IARFgJCo1Jta0QaHgsQ7sHuoQEaFAoSCf9CvLyPC9yAEYQjR9vi2oSkDBDUASoUChIJkSq_-4UL3IARmxgfh3oLoSM",
+                        "pin_latitude": {},
+                        "pin_longitude": {}
+                    },
+                    "currency_code": "USD",
+                    "minimum_age_to_buy_alcohol": 21,
+                    "minimum_age_to_buy_tobacco": 21,
+                    "time_zone": "US/Pacific"
+                },
+                "label": "Mark Trostler",
+                "delivery_instructions": "",
+                "nc_delivery_instructions": "NON-CONTACT ORDER - Call/text customer for approval to leave bag",
+                "multiple_delivery_zone": [
+                    {
+                        "id": 483,
+                        "marketing_region": "",
+                        "name": "SAN_Encinitas_483",
+                        "country_code": "us",
+                        "out_of_zone": false,
+                        "open": true,
+                        "open_from": "0 12 * * *",
+                        "open_to": "30 23 * * *",
+                        "delivery_open_from": "0 12 * * *",
+                        "delivery_open_to": "30 23 * * *",
+                        "pickup_open": false,
+                        "pickup_open_from": "0 0 * * *",
+                        "pickup_open_to": "0 0 * * *",
+                        "pickup_instructions": "When picking up, please provide your name and the last 4 digits of your phone number",
+                        "pickup_restricted_categories": [],
+                        "options": {
+                            "warning_message_for_alcohol_on_checkout_screen": "Must be 21 years of age to purchase alcohol/adult products. U.S. Government issued ID or Passport will be checked upon arrival of order. If you do not have ID at time of delivery, or you fail to provide an original physical copy or an authentic State or Government issued ID you will be charged a NON-REFUNDABLE 50% restocking fee and will not receive any of the order. Thank you for your cooperation. Expired IDs will not be accepted after July 1, 2021.",
+                            "warning_message_for_adult_on_checkout_screen": "You must be 21 years or older to order from the Smoke Shop. Please have your ID ready upon delivery for all Smoke Shop products. Expired IDs will not be accepted after July 1, 2021.",
+                            "title_for_tips_section_on_checkout": "Hook Your Driver Up?",
+                            "text_for_tips_section_on_checkout": "Gopuff makes it easy for customers to hook their delivery drivers up with a tip.\n\nWe even gave you some pre-selected options. Just tap to hook your driver up with a buck, three bucks, or a fiver.\n\nNot into it? Just tap 'nah.' Your snacks and dranks are still on their way.\n",
+                            "max_order_price_for_cash_pay": 100,
+                            "overnight_shipping_price": 8.49,
+                            "estimated_delivery_time": "20 - 50 minutes",
+                            "estimated_shipping_time": {
+                                "standard": {
+                                    "from": 2,
+                                    "to": 5
+                                },
+                                "overnight": {
+                                    "from": 1,
+                                    "to": 4
+                                }
+                            },
+                            "free_delivery_price": 100000,
+                            "min_order_price": 14.95,
+                            "delivery_price": 2.95,
+                            "tips_options": [
+                                {
+                                    "min_order_total": 0,
+                                    "max_order_total": 14.99,
+                                    "value_1": 2.99,
+                                    "value_2": 3.99,
+                                    "value_3": 4.99
+                                },
+                                {
+                                    "min_order_total": 15,
+                                    "max_order_total": 19.99,
+                                    "value_1": 3.99,
+                                    "value_2": 4.99,
+                                    "value_3": 5.99
+                                },
+                                {
+                                    "min_order_total": 20,
+                                    "max_order_total": 24.99,
+                                    "value_1": 4.99,
+                                    "value_2": 5.99,
+                                    "value_3": 6.99
+                                },
+                                {
+                                    "min_order_total": 25,
+                                    "max_order_total": 29.99,
+                                    "value_1": 5.79,
+                                    "value_2": 6.79,
+                                    "value_3": 7.79
+                                },
+                                {
+                                    "min_order_total": 30,
+                                    "max_order_total": 34.99,
+                                    "value_1": 6.59,
+                                    "value_2": 7.59,
+                                    "value_3": 8.59
+                                },
+                                {
+                                    "min_order_total": 35,
+                                    "max_order_total": 39.99,
+                                    "value_1": 7.09,
+                                    "value_2": 9.09,
+                                    "value_3": 11.09
+                                },
+                                {
+                                    "min_order_total": 40,
+                                    "max_order_total": 44.99,
+                                    "value_1": 7.89,
+                                    "value_2": 9.89,
+                                    "value_3": 11.89
+                                },
+                                {
+                                    "min_order_total": 45,
+                                    "max_order_total": 49.99,
+                                    "value_1": 8.19,
+                                    "value_2": 10.19,
+                                    "value_3": 12.19
+                                },
+                                {
+                                    "min_order_total": 50,
+                                    "max_order_total": null,
+                                    "value_1": 8.99,
+                                    "value_2": 10.99,
+                                    "value_3": 14.99
+                                }
+                            ],
+                            "delivery_zone_requires_id_scan_before_ordering": "For you to receive your order, you need to upload photo of a government issued document proving your identity and age. If your ID document has two sides with information about your identity, please upload both sides.",
+                            "delivery_zone_requires_id_document_before_ordering": "SCAN THE BACK OF YOUR DRIVER'S LICENSE "
+                        },
+                        "message": {
+                            "title": "How convenient!",
+                            "description": "You’re within our delivery area, which means your convenience wishes are our command. Just let us know what you want and we’ll be right there."
+                        },
+                        "requires_id_scans_before_ordering": false,
+                        "requires_id_document_before_ordering": false,
+                        "requires_id_document_before_ordering_alcohol": false,
+                        "requires_id_document_before_ordering_adult": false,
+                        "polygon_secondary": false,
+                        "launch_date": "2021-05-27",
+                        "coming_soon": false,
+                        "accepts_cash": false,
+                        "rank": null,
+                        "kind": "mfc",
+                        "alcohol_merchant": "",
+                        "pickup_enabled": false,
+                        "out_of_service": false,
+                        "delivery_enabled": true,
+                        "autohold_fresh_food": false,
+                        "address": {
+                            "id": 443,
+                            "location_id": 483,
+                            "address": "212 N El Camino Real",
+                            "apt": "",
+                            "zip": "92024",
+                            "city": "Encinitas",
+                            "state": "California",
+                            "latitude": "33.049204",
+                            "longitude": "-117.261179",
+                            "created_at": "2021-01-06T14:44:03.000-05:00",
+                            "updated_at": "2021-05-27T11:45:44.000-04:00",
+                            "google_place_id": "Ei4yMTIgTiBFbCBDYW1pbm8gUmVhbCwgRW5jaW5pdGFzLCBDQSA5MjAyNCwgVVNBIlESTwo0CjIJc5wzXYwL3IARFgJCo1Jta0QaHgsQ7sHuoQEaFAoSCf9CvLyPC9yAEYQjR9vi2oSkDBDUASoUChIJkSq_-4UL3IARmxgfh3oLoSM",
+                            "pin_latitude": null,
+                            "pin_longitude": null
+                        },
+                        "currency_code": "USD",
+                        "minimum_age_to_buy_alcohol": 21,
+                        "minimum_age_to_buy_tobacco": 21,
+                        "time_zone": "US/Pacific"
+                    }
+                ],
+                "currency_code": "USD"
+            },
+            "delivery_zone_id": 483,
+            "is_newbie": false,
+            "payment_id": 5764376,
+            "metadata": {
+                "viewed_categories": [
+                    "null",
+                    "208",
+                    "98",
+                    "214",
+                    "209",
+                    "256",
+                    "20",
+                    "235",
+                    "215",
+                    "58",
+                    "92",
+                    "665"
+                ],
+                "purchased_primary_categories": [
+                    "20",
+                    "58",
+                    "211"
+                ]
+            },
+            "user_tags": {
+                "sevenDaysSevenDeals": true,
+                "sevenDaysSevenDealsEndDate": "2021-07-22T04:06:53.919Z"
+            },
+            "advertising": {
+                "ttd": {
+                    "id": "c0321654-9bf6-4aed-9ed8-d9d4bbc6cf1c",
+                    "puid": {},
+                    "gdpr": 0,
+                    "gdpr_options": {
+                        "consent": {
+                            "experience": true,
+                            "usage": true,
+                            "marketing": true,
+                            "advertising": true
+                        }
+                    }
+                }
+            },
+            "marketing_sms": true,
+            "pending_marketing_sms_coupon": false,
+            "bevmo_coupon_redeemed": true
+        },
+        "_rid": "r4UGAI86GH+J5xQAAAAACg==",
+        "_self": "dbs/r4UGAA==/colls/r4UGAI86GH8=/docs/r4UGAI86GH+J5xQAAAAACg==/",
+        "_etag": "\"ba006760-0000-0100-0000-62491ce50000\"",
+        "_attachments": "attachments/",
+        "_ts": 1648958693
+    }
+]
